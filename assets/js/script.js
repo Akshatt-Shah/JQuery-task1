@@ -45,7 +45,8 @@ function deleteFunction(rowData) {
 
         // Alert the user
         alert("Record deleted");
-        window.location.href = 'showdata.html';
+        showdata();
+        //window.location.href = 'showdata.html';
     }
 
 }
@@ -101,7 +102,7 @@ function updateFunction() {
                                     <label>Backlog</label>
                                     <input type="number" min="0" max="10" class="form-control" id="backlog" required placeholder="Enter Backlog"/>
                             </div>
-                            <div class="col-lg text-center mt-md-0 mt-3 delete" style="visibility:hidden">
+                            <div class="col-lg text-center mt-md-0 mt-3 delete" style="visibility:visible">
                                     <label>Delete</label>
                                     <button type="button" class="btn btn-danger " ><i class="fa fa-minus"></i></button>
                             </div>
