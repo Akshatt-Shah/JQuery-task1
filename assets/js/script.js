@@ -103,8 +103,8 @@ function updateFunction() {
                                     <input type="number" min="0" max="10" class="form-control" id="backlog" required placeholder="Enter Backlog"/>
                             </div>
                             <div class="col-lg text-center mt-md-0 mt-3 delete" style="visibility:visible">
-                                    <label>Delete</label>
-                                    <button type="button" class="btn btn-danger " ><i class="fa fa-minus"></i></button>
+                                    <label>Delete</label><br>
+                                    <button type="button" class="btn btn-danger " onclick = "this.parentNode.parentNode.remove()"><i class="fa fa-minus"></i></button>
                             </div>
                         </div>
                     `;
